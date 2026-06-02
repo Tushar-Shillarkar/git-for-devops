@@ -1,0 +1,46 @@
+63  git remote -v
+   64  clear
+   65  git push origin master
+   66  git push origin main
+   67  vim hey.txt
+   68  cat hey.txt 
+   69  git add hey.txt 
+   70  git commit -m "V2"
+   71  git push -u https://github.com/Tushar-Shillarkar/Git_demo.git
+   72  git pull
+   73  git pull origin main --allow-unrelated-histories
+   74  git push -u origin main
+   75  clear
+   76  git branch test
+   77  git checkout
+   78  git branch
+   79  git checkout test
+   80  ls
+   81  vim demo1.txt 
+   82  git add .
+   83  git commit -m "demo2"
+   84  git push
+   85   git push --set-upstream origin test
+   86  mkdir demo
+   87  cd cd demo
+   88  ls
+   89  git init
+   90  ls -a
+   91  clear
+   92  git status
+   93  clear
+   94  git add .
+   95  git status
+   96  clear
+   97  git commit -m "v1"
+   98  git status
+   99  git status testing.py 
+  100  clear
+  101  ls
+  102  rm testing.py 
+  103  git restore testing.py 
+  104  rm testing.py 
+  105  git restore testing.py 
+  106  clear
+  107  git history
+  108  historycle
